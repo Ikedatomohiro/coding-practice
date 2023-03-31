@@ -1,57 +1,5 @@
 # https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_snake_mapmove_step3
-_INPUT = """\
-7 11 1 5 43
-.##........
-.#......##.
-.#....#...#
-.###......#
-#......###.
-..#....###.
-#.#........
-L
-L
-R
-L
-R
-L
-R
-L
-L
-R
-L
-R
-L
-L
-L
-L
-R
-R
-R
-L
-R
-L
-R
-L
-L
-R
-L
-L
-R
-L
-R
-L
-R
-R
-R
-R
-L
-R
-L
-L
-L
-R
-R
-"""
+from input1 import _INPUT
 
 def main(*, int=int, input=input):
     h, w, sy, sx, n = map(int, input().split())
