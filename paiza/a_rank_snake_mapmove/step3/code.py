@@ -16,14 +16,14 @@ def main(*, int=int, input=input):
 
         # 一歩進む
         if directions[now] == "N":
-            sy -= 1        
+            sy -= 1
         elif directions[now] == "E":
             sx += 1
         elif directions[now] == "S":
             sy += 1
         elif directions[now] == "W":
             sx -= 1
-        
+
         # 結果を出力
         if sy < 0 or sy >= h or sx < 0 or sx >= w or s[sy][sx] == "#":
             print("Stop")
@@ -36,7 +36,6 @@ if __name__ == "__main__":
     import io, sys
 
     sys.stdin = io.StringIO(_INPUT)
-    
-    main()
 
-    
+    main()
+fasfdsa
