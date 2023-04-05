@@ -5,8 +5,7 @@ def main(*, int=int, input=input):
     count = 0
     x = input()
     for i in range(365):
-        pattern = r'{}'.format(x)
-        result = re.search(pattern, str(i))
+        result = re.search(x, str(i))
         if result:
             count += 1
     print(count)
