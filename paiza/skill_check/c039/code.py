@@ -2,7 +2,7 @@
 from input1 import _INPUT
 
 def main(*, int=int, input=input):
-    kihou = list(input())
+    kihou = input()
     result = 0
     for moji in kihou:
         if moji == '/':
