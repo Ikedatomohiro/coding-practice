@@ -1,5 +1,5 @@
 # https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_camp_boss
-from input6 import _INPUT
+from input2 import _INPUT
 
 def main(*, int=int, input=input):
     from collections import deque
