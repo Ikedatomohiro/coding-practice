@@ -20,4 +20,12 @@ func main() {
 		}
 	}
 	fmt.Println("Yes")
+	os.Exit(0)
+
+	// var (y, m string)
+	// fmt.Scan(&y, &m)
+	// // fmt.Scan(&y)
+	// // fmt.Scan(&m)
+	// ym := y + m
+	// fmt.Println(ym)
 }
